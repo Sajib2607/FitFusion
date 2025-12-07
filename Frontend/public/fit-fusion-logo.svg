@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200">
+  <!-- Dynamic Background -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1E5799" />
+      <stop offset="100%" style="stop-color:#7DB9E8" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background Shape - More dynamic hexagon -->
+  <path d="M100 10 L175 50 L175 150 L100 190 L25 150 L25 50 Z" fill="url(#bgGradient)" />
+  
+  <!-- First F - More aggressive, angular design -->
+  <path d="M50 50 h45 l5 5 v10 l-5 5 h-30 v20 h25 l5 5 v10 l-5 5 h-25 v35" fill="transparent" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter" />
+  
+  <!-- Second F - Matching the first -->
+  <path d="M110 50 h45 l5 5 v10 l-5 5 h-30 v20 h25 l5 5 v10 l-5 5 h-25 v35" fill="transparent" stroke="#FFFFFF" stroke-width="7" stroke-linecap="square" stroke-linejoin="miter" />
+  
+  <!-- Motion Lines -->
+  <path d="M40 160 l120 0" stroke="#FFFFFF" stroke-width="3" stroke-dasharray="15,8" />
+  <path d="M45 170 l110 0" stroke="#FFFFFF" stroke-width="2" stroke-dasharray="12,10" />
+  
+  <!-- Dumbbell connector -->
+  <circle cx="80" cy="100" r="8" fill="#FFFFFF" />
+  <rect x="80" y="98" width="40" height="4" fill="#FFFFFF" />
+  <circle cx="120" cy="100" r="8" fill="#FFFFFF" />
+</svg>
